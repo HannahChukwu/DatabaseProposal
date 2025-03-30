@@ -29,7 +29,7 @@ Social Activities – Extra curricular events or personal activities outside sch
 #Technology stack:
 
 Programming Language: Python
-UI/UX: Web interface
+UI/UX: Web interface (will need suggestions)
 Database: SQLite 
 
 #How users will interact:
