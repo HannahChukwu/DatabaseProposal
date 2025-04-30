@@ -1,50 +1,61 @@
-# Name: Hannah Chukwu
+# Athlete School Planner
 
-#Title:  School Planner for athletes
+## Author
+**Hannah Chukwu**
 
-#Description: 
-  The Athlete School Planner will help student-athletes keep track of both their academic and athletic schedules, ensuring they can effectively manage their time between schoolwork, training, competitions, and other personal activities.The app will provide an integrated schedule, task tracker, and notification system to make sure athletes don’t miss important academic deadlines or practice sessions. It will also allow them to track their performance goals and health metrics, which can be useful for balancing school and sports.
-  
-#Proposed Entities
-Athletes – User profile. name, school, sport, and contact details.
+## Description
+The **Athlete School Planner** is a comprehensive tool designed to help student-athletes effectively manage their academic and athletic responsibilities. It integrates schedules, task tracking, and notifications, enabling users to stay on top of schoolwork, training, competitions, and personal activities.
 
-Classes – The academic courses the athlete is enrolled in (course name, instructor, schedule, etc.).
+Key features include:
+- Integrated calendar for classes, practices, and games
+- Assignment tracker with deadlines
+- Health metric monitoring (e.g., weight, stamina, recovery)
+- Goal setting and performance tracking
+- Reminders for key events and deadlines
 
-Practice Sessions – Details of scheduled practice sessions (e.g., type of practice, coach, location, and time).
+This planner empowers athletes to balance school and sports without missing a beat.
 
-Games/Competitions – Scheduled games or competitions, including opponent, date, time, and results.
+---
 
-Assignments – Information about assignments and deadlines (subject, due date, description, etc.).
+## Proposed Entities
 
-Health Metrics – Physical data like weight, stamina, recovery status, and injury tracking.
+- **Athletes**: User profiles with name, school, sport, and contact details.
+- **Classes**: Academic courses with details like course name, instructor, schedule, and room number.
+- **Practice Sessions**: Practice details including type, coach, location, and time.
+- **Games/Competitions**: Scheduled matches with opponent info, date, time, location, and results.
+- **Assignments**: Subject-specific tasks with descriptions and due dates.
+- **Health Metrics**: Data on physical health including weight, stamina, injuries, and recovery.
+- **Performance Goals**: Targets in academics (e.g., GPA) and athletics (e.g., personal bests).
+- **Reminders/Alerts**: Notifications for upcoming events and deadlines.
+- **Coaches**: Information on coaches, including contact and team schedules.
+- **Social Activities**: Extracurricular or personal events outside school and sports.
 
-Performance Goals – Goals related to both academics (GPA targets) and athletics (performance records).
+---
 
-Reminders/Alerts – Notifications for upcoming games, practice sessions, assignment deadlines, and goals.
+## Technology Stack
 
-Coaches – Coaches’ contact info, team, and coaching schedules.
+- **Programming Language**: Python  
+- **UI/UX**: Web interface (TBD — suggestions welcome!)  
+- **Database**: SQLite  
 
-Social Activities – Extra curricular events or personal activities outside school and sports.
+---
 
-#Technology stack:
+## User Interaction
 
-Programming Language: Python
-UI/UX: Web interface (will need suggestions)
-Database: SQLite 
+### Create
+- Athletes create and manage their profiles.
+- Input class schedules, practice sessions, game information, health metrics, and performance goals.
 
-#How users will interact:
-Create:
-Athletes create their profiles, class schedules, practice sessions, and games.
-Health metrics and performance goals are input by the athlete or coach.
+### Read
+- View all scheduled activities, assignments, health data, and goals in a clear dashboard.
+- Data is pulled from the SQLite database and presented in a user-friendly format.
 
-Read:
-Athletes can view their schedules, assignments, health data, and goals.
-The app will display data from the SQLite database in a user-friendly interface.
+### Update
+- Modify details like practice times, game schedules, grades, or health status.
 
-Update:
-Athletes can update their practice times, grades, or health metrics.
-Changes to assignments or game schedules can be made.
+### Delete
+- Remove completed assignments, past events, or outdated health records.
 
-Delete:
-Athletes can delete completed assignments, past games, or outdated health records.
+---
+
 
